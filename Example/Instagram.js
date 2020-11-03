@@ -189,11 +189,6 @@ export default class Instagram extends Component {
             accessibilityTraits={['button']}>
             {this.renderClose()}
           </TouchableOpacity>
-          {
-            (Platform.OS === 'android') ?
-          <View style={{ height: 60, backgroundColor: 'transparent'}}/>
-          : null
-          }
         </View>
       </Modal>
     );
